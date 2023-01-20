@@ -4,27 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c96f7337-3d4c-474b-a76d-f31545908296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Ranger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Rogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Character/MageTest.java" afterDir="false" />
+    <list default="true" id="c96f7337-3d4c-474b-a76d-f31545908296" name="Changes" comment="Test Mage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Armour/Armour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Armour/ArmourEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Item/ItemEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Weapons/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Weapons/WeaponsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Character/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Character/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Character/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Character/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Character/MageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +63,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "last_opened_file_path": "C:/Users/ESkand/IdeaProjects/Noroff_FirstAssignmen/src/main/java/org/example",
+    "last_opened_file_path": "C:/Users/ESkand/IdeaProjects/KataNoroff",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,8 +118,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673872252141</updated>
-      <workItem from="1673872253374" duration="3642000" />
+      <workItem from="1673872253374" duration="42043000" />
     </task>
+    <task id="LOCAL−00001" summary="Test Mage">
+      <created>1673876205018</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1673876205018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Test Mage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Mage" />
   </component>
 </project>

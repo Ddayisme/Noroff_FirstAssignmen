@@ -14,4 +14,11 @@ public class Enum {
 
         Dexterity
     }
+
+    public enum mage_Weapon_Type_Enum{
+        Staff,
+        Dagger,
+        Wand
+
+    }
 }
